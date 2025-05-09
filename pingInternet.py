@@ -9,7 +9,7 @@ def ping_internet():
     if response == 0:
         print("Internet is reachable.")
     else:
-        print("Failed to reach the internet.")
+        print("The Internet is down!")
 
 def main():
     while True:
